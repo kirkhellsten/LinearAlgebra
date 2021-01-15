@@ -11,8 +11,8 @@ Linear motions are also known as vector equations where the direction vector is 
 
 Functions
 
-The length of the vector is calculated as the sqrt of the sum of all components squared. To find the distance vector there required a function to find the difference of two linear motions; inputs included the points, velocities and time. The linear motion calculates the point which the object is located at a given time, this calculation required another function. The fnLMGetDistanceBetweenPointsAtTime function is called within the main program and is the distance value used in the distance and time report.
+The length of the direction vector is calculated as the sqrt of the sum of all components squared. The direction vector is calculated as the difference of two linear motions; inputs included the points, velocities and time. The linear motion calculates the point which the object is located at a given time.
 
 Main Program
 
-The main function initializes all the points and velocity vectors, and supporting variables used to calculate distance and time. These two values are reporting into the console, with a heading of "Distance Between Points" and "Time. When iterating through all values the lowest distance is put into a variable for later reporting. The loweset distance is the minimal distance. Both the loweset distance value and this valued squared are reported.
+The main function initializes all the points and velocity vectors, and supporting variables used to calculate distance and time. These two values are reporting into the console, with a heading of "Distance Between Points" and "Time. The function that gets the distance between two points in linear motions at a given time is called within the iteration step. When iterating through all values the lowest distance is put into a variable for later reporting. The loweset distance is the minimal distance. Both the loweset distance value and this valued squared are reported.
