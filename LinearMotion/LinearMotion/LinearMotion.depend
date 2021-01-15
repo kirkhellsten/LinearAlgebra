@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1610663223 source:c:\users\kirk\codeblock projects\linear algebra\linearmotion\linearmotion\main.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	<string>
+
